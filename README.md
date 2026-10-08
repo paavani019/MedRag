@@ -1,8 +1,5 @@
 ## Overview
 
-<div align="center"> <img src="./images/method.png" alt="diseases knowledge graph" width="1000"> </div >
-    <p><em>Figure 1:  The overall framework of MedRAG.</em></p >
-    
 
 **MedRAG** is to designed to enhance **Retrieval-Augmented Generation** (RAG) models by integrating **Knowledge Graph (KG)-elicited reasoning**, specifically for the medical domain. This model helps healthcare professionals generate diagnosis and treatment recommendations based on patient manifestations, improving diagnostic accuracy and reducing the risk of misdiagnosis, particularly for diseases with similar manifestations.
 
@@ -30,8 +27,6 @@ The MedRAG approach addresses the following key challenges:
 The full MedRAG test set, including raw image data and annotations, can be downloaded from the links below. Due to the large size of the dataset, a lighter version is also available for quicker testing.
 
 - [Download Full DDXPlus](https://figshare.com/articles/dataset/DDXPlus_Dataset_English_/22687585): A large-scale, synthesized EHR dataset widely recognized for offering complex, diverse medical diagnosis cases. It includes comprehensive patient data such as socio-demographic information, underlying diseases, symptoms, and antecedents.
-- CPDD: A private EHR dataset for chronic pain management from our partner hospital, [Tan Tock Seng Hospital](https://www.ttsh.com.sg) in Singapore.
-
 ## Usage
 
 To use MedRAG, follow these steps:
@@ -141,31 +136,3 @@ We evaluate KG-elicited reasoning on different LLM backbones, including both ope
 <div align="center"> <img src="./images/diagnosticdiff.png" alt="CPDD-KG" width="800"> </div >
     <p><em>Diagnosic difference example.</em></p >
 While lumbar canal stenosis and sciatica share some similar features, the critical distinguishing factor lies in the response to sitting. In lumbar canal stenosis, features are typically alleviated when sitting, whereas in sciatica, sitting tends to exacerbate the discomfort. 
-
-## 📖 Citation
-
-If you find our work useful, please consider citing our papers:
-
-```bibtex
-@inproceedings{zhao2025medrag,
-  title={MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot},
-  author={Zhao, Xuejiao and Liu, Siyan and Yang, Su-Yin and Miao, Chunyan},
-  booktitle={Proceedings of the ACM on Web Conference 2025},
-  pages={4442--4457},
-  year={2025}
-}
-
-@inproceedings{ijcai2025p1278,
-  title     = {A Smart Multimodal Healthcare Copilot with Powerful LLM Reasoning},
-  author    = {Zhao, Xuejiao and Liu, Siyan and Yang, Su-Yin and Miao, Chunyan},
-  booktitle = {Proceedings of the Thirty-Fourth International Joint Conference on
-               Artificial Intelligence, {IJCAI-25}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  editor    = {James Kwok},
-  pages     = {11132--11136},
-  year      = {2025},
-  month     = {8},
-  note      = {Demo Track},
-  doi       = {10.24963/ijcai.2025/1278},
-  url       = {https://doi.org/10.24963/ijcai.2025/1278},
-}
