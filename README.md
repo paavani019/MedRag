@@ -1,38 +1,3 @@
-# MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot
-
-<a href='https://arxiv.org/abs/2502.04413'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
-
-✅ This paper has been accepted by [The Web Conference (WWW) 2025](https://www2025.thewebconf.org/), and the demo of MedRAG has been accepted by [The 34th International Joint Conference on Artificial Intelligence (IJCAI) 2025](https://2025.ijcai.org/).
-
-💻 This is the official implementation for our accepted paper [*MedRAG: Enhancing Retrieval-augmented Generation with Knowledge Graph-Elicited Reasoning for Healthcare Copilot*](https://arxiv.org/abs/2502.04413) and partial implementation for our accepted paper [*A Smart Multimodal Healthcare Copilot with Powerful LLM Reasoning*](https://arxiv.org/abs/2506.02470).
-
-#### Authors
-[Xuejiao Zhao*](https://zxjwudi.github.io/xuejiaozhao/),  [Siyan Liu*](https://scholar.google.com/citations?hl=zh-CN&user=v087WWIAAAAJ),  [Su-Yin Yang](https://www.linkedin.com/in/su-yin-yang-b4304355?originalSubdomain=sg),  [Chunyan Miao**](https://dr.ntu.edu.sg/cris/rp/rp00084)
-
-**Nanyang Technological University  &nbsp; | &nbsp;  Tan Tock Seng Hospital &nbsp; |&nbsp; Woodlands Health**
-
-\* Both authors contributed equally to the paper
-
-\*\* Corresponding author
-
-[![Nanyang Technological University Launches Reasoning-Enhanced LLM for Healthcare Copilot](https://res.cloudinary.com/marcomontalbano/image/upload/v1741756409/video_to_markdown/images/youtube--PNIBDMYRfDM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=PNIBDMYRfDM "Nanyang Technological University Launches Reasoning-Enhanced LLM for Healthcare Copilot")
-
-[![Stargazers repo roster for @SNOWTEAM2023/MedRAG](https://reporoster.com/stars/SNOWTEAM2023/MedRAG)](https://github.com/SNOWTEAM2023/MedRAG/stargazers)
-
----
-
-## :fire: News
-* **[2025.06.04]** Our demo paper accepted by IJCAI'25 is launched on [arXiv](https://arxiv.org/abs/2506.02470)! We introduced a novel voice modality with corresponding evaluations and conducted a comprehensive doctor evaluation. Check it out [here](https://github.com/SNOWTEAM2023/MedRAG/tree/main/appendix)!
-* **[2025.05.14]** Added [explanation](#usage) of the processed dataset file `AI Data Set with Categories.csv`, including guidance on dataset extension and feature customization.
-* **[2025.04.10]** Removed unused imports and fixed missing module issue.
-* **[2025.03.24]** MedRAG has recently drawn some interest from media outlets and bloggers, such as [Medium](https://medium.com/@jenray1986/medrag-revolutionizing-healthcare-with-knowledge-graph-enhanced-retrieval-augmented-generation-dda38cc9f447), [AI Era](https://mp.weixin.qq.com/s/XR7G3IZib0mbenSRFcP2NA), and [CSDN](https://blog.csdn.net/weixin_44292902/article/details/146162978?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522f4075b96d8be4fda16fa4ccd41cc155f%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=f4075b96d8be4fda16fa4ccd41cc155f&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-5-146162978-null-null.142^v102^pc_search_result_base8&utm_term=medrag). Tks for all the support — we're continuing to improve! 🙏
-* **[2025.03.12]** We release the officially generated [diagnostic knowledge graph for the DDXPlus dataset](https://github.com/SNOWTEAM2023/MedRAG/blob/b935c168f752adbd0a3afae00501f134709810d5/dataset/knowledge%20graph%20of%20DDXPlus.xlsx). Have a try!
-* **[2025.02.25]** The [Chinese Demo](https://www.bilibili.com/video/BV1urPeemEZd/) of MedRAG is now available on Bilibili, and the [English Demo](https://youtu.be/PNIBDMYRfDM) is available on YouTube.
-* **[2025.02.10]** MedRAG reported by the 'Quantum Heart' on [RedNote](https://www.xiaohongshu.com/explore/67a99975000000001800c6cd?app_platform=ios&app_version=8.69.4&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBXfNU2SBF5Pjwuy9JmZYfUVqcLD69q3cV63KFRxtoJxw=&author_share=1&xhsshare=WeixinSession&shareRedId=ODg1Q0Q-Sko2NzUyOTgwNjg0OTk4Nj5O&apptime=1739195717&share_id=0a20c14eada548b98f6c0a37f014267d&wechatWid=e5abb2017c8f43ce7e2a0a478fb5c5bd&wechatOrigin=menu).
-* **[2025.02.04]** We release the official implementation of MedRAG.
-* **[2025.01.20]** MedRAG has been accepted by WWW'25. Please check the latest paper version on [arXiv](https://arxiv.org/abs/2307.00040).
-
-
 ## Overview
 
 <div align="center"> <img src="./images/method.png" alt="diseases knowledge graph" width="1000"> </div >
